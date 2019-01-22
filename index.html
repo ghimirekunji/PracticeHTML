@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body {background-color:lightblue;} 
+           h1 {color: red;}      
+           #p1 {color:grey;}      
+           #p2 {color:rgb(0, 139, 23);}
+        </style>     <!--Id attribute for paragraph -->
+<title>Hello world</title>
+    </head>
+
+    <body>
+        <h2 title="link to blog file"><a href="blog.html">go to blog</a>
+        </h2>   <!--link to another file navigation -->
+
+         <h1>Learning html first day</h1>
+            <p id="p1">
+                I am trying to learn html. <em>Em is used to make line italics</em><br>I need to be goodin math otherwise <br>coding is not goign to
+                work . the<strong>Strong is used to make senetnce bold</strong> jshdjshd dhhf sdfhshdsd shdkshds<br>
+                lets see how interesting is this. <br />I am just feeling weird and funny.
+
+             <hr />another paragraph
+            </p><hr>
+
+            <p id="p2">now this color should be in green</p>
+            
+            
+            <pre>i m 
+                a good        <!--pre preserves the line and space of paragraph -->
+            </pre>
+        
+
+<!--hyperlink-->
+        <a href="http://google.com" target="_blank">Target blank open link in another tab. A href is used for hyperlink</a>
+        <img src="buddha.jpg" width="250" height="250"/><!--putting image-->   <button>Click me</button><!--button-->  
+       
+<!--Lists-->
+       <ul>
+          <li>This is the first unordered list</li>
+          <li>This is the second unordered list.</li>
+          <li>This is the third unordered list.</li>
+       </ul>
+
+       <ol>
+          <li>This is the first ordered list</li>
+          <li>This is the second ordered list.</li>
+        <li>This is the third ordered list.</li>
+       </ol>
+   <!--table-->
+    <table>
+       <thead>
+           <tr>
+               <th>name</th>
+               <th>age</th>
+               <th>gender</th>
+           </tr>
+       </thead>
+       <tbody> 
+           <tr>
+               <td>kunjan</td>
+               <td>30</td>
+               <td>female</td>
+           </tr>
+           <tr>
+                <td>kunjan</td>
+                <td>30</td>
+                <td>female</td>
+            </tr>
+            <hr>      
+       </tbody>
+   </table>
+   <hr>
+
+       <form action="process.php" method="post"><!--action creates functionality and submits the function to go to some file in php in server-->
+        <!--mthod is post request for form, and post is used to add data to database--><!--Creating forms--><!--process.php is needed for functionality of form to so some action-->  
+          <div>
+           <label>First name</label>
+              <input type="text" name="first name" placeholder="enter first name">    <!--why always to put name="first name", bcoj it doesnt make any difference-->
+          </div><br>    <!--placeholder greys the area in form and goes away-->
+        <div>
+           <label>last name</label>
+              <input type="text" name="last name" placeholder="enter last name">
+        </div><br>
+        <div>
+          <label>Email</label>
+             <input type="email" name="email" placeholder="enter last name">   <!--type email when dealing with email address-->
+        </div><br>
+        <div>
+             <input type="submit" value="log in" name="submit"/>  
+       </div> <br>
+       <div>
+             <input type="submit" name="submit" value="submit">
+        </div><br>
+        </div> <br> <!--to make log in button-->
+        <div>
+          <label>Message</label>
+             <textarea name="message" placeholder="enter message"></textarea> <!--Message area in form-->
+        </div><br>
+        <div>
+          <label>Gender</label>      <!--drop down menu-->
+             <select name="gender">  <!--why always to put name="gender", bcoj it doesnt make any difference-->
+                 <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+             </select>
+       </div><br>
+       <div>
+          <label>Age:</label>
+             <input type="number" name="age" value="30">
+       </div><br>
+       <div>
+           <label>Birthday</label>
+             <input type="date" name="birthday">
+       </div>
+        </form>
+
+
+      <!--button-->
+      <button>click me</button>
+
+      <!--image-->                                           <!--image width and height shoul dbe done hrough css-->
+          <a href="image/images.jpeg" target="blank">
+          <img src="image/images.jpeg" alt="my sample image" width="200" height="200">
+          </a>
+
+<!--abbr-->  
+     <p>
+    The <abbr title="world wide web">www</abbr>is awsesome         
+     </p>
+
+<!--cite-->  
+     <p>
+        <cite>html crash course</cite>by Kunjan
+     </p>
+
+    </body>
+</html>
